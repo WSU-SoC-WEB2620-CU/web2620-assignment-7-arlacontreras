@@ -1,0 +1,49 @@
+// Navigation and Hero styling
+$blue-color: #66d1ff;
+$white-color: #fcfdfd;
+$black-color: #14161a;
+$gray-color: #abb1bf;
+$green-color: #00d1b2;
+$ten: 10px;
+
+nav {
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin: 20px;
+
+      &#githubLink {
+        border: 1px solid $white-color;
+        padding: $ten;
+        margin: $ten;
+        border-radius: $ten;
+      }
+    }
+  }
+}
+.heroContainer {
+  background-color: $blue-color;
+  color: $white-color;
+}
+
+.heroContent {
+  padding: 140px;
+  text-align: center;
+}
+
+.belowHero {
+  background-color: $black-color;
+  color: $white-color;
+  margin: 0;
+  padding: $ten;
+  text-align: center;
+  span {
+    background-color: $green-color;
+    border-radius: 5px;
+    margin: $ten;
+    padding: 5px $ten;
+  }
+}
